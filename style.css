@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.claerflix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    height: 100px;
+    width: 80%;
+    background-color:rgb(255, 161, 232);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.first-one{
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(247, 234, 62);   
+}
+
+.second-one{
+    height: 70px;
+    width: 80%;
+    background-color:royalblue;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.content{
+    
+}
+.float{
+    height: 300px;
+    width: 25%;
+    margin: auto;
+    background-color: royalblue;
+    float: left;
+}
