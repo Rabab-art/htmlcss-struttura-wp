@@ -33,12 +33,31 @@ header{
 
 }
 .content{
+    margin:0 auto;
+    padding:0;
+    width: 80%p;
     
 }
-.float{
-    height: 300px;
+.box{
+    height: 500px;
     width: 25%;
     margin: auto;
-    background-color: royalblue;
-    float: left;
+    background-color: royalblue; 
+    border: 1px solid black;
+    display: inline-block
+       
+}
+.float{
+    float: middle;
+    padding: 10px;
+    margin: 30px;
+    
+}
+footer{
+    height: 100px;
+    width: 80%;
+    background-color:rgb(192, 51, 235);
+    margin: auto;
+    margin-top: 20px;
+}
 }
