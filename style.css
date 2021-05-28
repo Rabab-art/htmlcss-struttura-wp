@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .claerflix::after{
     content: "";
     display: table;
@@ -10,54 +14,40 @@
 }
 header{
     height: 100px;
-    width: 80%;
     background-color:rgb(255, 161, 232);
-    margin: auto;
     margin-bottom: 20px;
 }
 
-.first-one{
-    height: 250px;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 20px;
+.big-box{
+    height: 300px;
+    margin: 20px 0;
     background-color: rgb(247, 234, 62);   
 }
 
-.second-one{
-    height: 70px;
-    width: 80%;
-    background-color:royalblue;
-    margin: auto;
-    margin-bottom: 20px;
-
-}
-.content{
-    margin:0 auto;
-    padding:0;
-    width: 80%p;
-    
-}
-.box{
-    height: 500px;
-    width: 25%;
-    margin: auto;
-    background-color: royalblue; 
-    border: 1px solid black;
-    display: inline-block
-       
-}
-.float{
-    float: middle;
-    padding: 10px;
-    margin: 30px;
-    
-}
-footer{
-    height: 100px;
-    width: 80%;
-    background-color:rgb(192, 51, 235);
-    margin: auto;
+.leadership{
+    background-color: rgb(118, 176, 243);
     margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
+
+
+.leadership .content .box{
+    float: left;
+    width: 25%;
+    height: 400px;
+    background-color: royalblue; 
+    display: inline-block       
+}
+.leadership .content .box:nth-child(2){
+    width: calc(50% - 40px);
+    margin: 0 20px;
+    margin-top: 0px;
+  
+} 
+
+footer{
+    height: 50px;
+    background-color:rgb(192, 51, 235);
+    margin-top: 20px;
 }
